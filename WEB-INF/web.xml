@@ -1,0 +1,136 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.SmartTutor.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SignInServlet</servlet-name>
+    <servlet-class>com.SmartTutor.servlet.SignInServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SignInServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.SmartTutor.servlet.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>EditInfoServlet</servlet-name>
+    <servlet-class>com.SmartTutor.servlet.EditInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditInfoServlet</servlet-name>
+    <url-pattern>/updateInfo</url-pattern>
+  </servlet-mapping>
+
+  <!-- Admin Dashboard Servlet -->
+  <servlet>
+    <servlet-name>AdminDashboardServlet</servlet-name>
+    <servlet-class>com.SmartTutor.servlet.AdminDashboardServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AdminDashboardServlet</servlet-name>
+    <url-pattern>/adminDashboard</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RegisterTutorServlet</servlet-name>
+    <servlet-class>com.SmartTutor.servlet.RegisterTutorServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>RegisterTutorServlet</servlet-name>
+    <url-pattern>/registerTutor</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ListTutorsServlet</servlet-name>
+    <servlet-class>com.SmartTutor.servlet.ListTutorsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListTutorsServlet</servlet-name>
+    <url-pattern>/Tutorslist</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddSubjectServlet.java</servlet-name>
+    <servlet-class>com.SmartTutor.servlet.AddSubjectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddSubjectServlet.java</servlet-name>
+    <url-pattern>/AddSubjectServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SubjectListServlet</servlet-name>
+    <servlet-class>com.SmartTutor.servlet.SubjectListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SubjectListServlet</servlet-name>
+    <url-pattern>/courses</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>TutorProfileServlet</servlet-name>
+    <servlet-class>com.SmartTutor.servlet.TutorProfileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TutorProfileServlet</servlet-name>
+    <url-pattern>/TutorProfile</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>EditSubjectServlet</servlet-name>
+    <servlet-class>com.SmartTutor.servlet.EditSubjectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditSubjectServlet</servlet-name>
+    <url-pattern>/editSubject</url-pattern>
+  </servlet-mapping>
+
+
+
+
+  <servlet>
+    <servlet-name>DeleteSubjectServlet</servlet-name>
+    <servlet-class>com.SmartTutor.servlet.DeleteSubjectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteSubjectServlet</servlet-name>
+    <url-pattern>/deleteSubject</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>BookingServlet</servlet-name>
+    <servlet-class>com.SmartTutor.servlet.BookingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookingServlet</servlet-name>
+    <url-pattern>/BookingServlet</url-pattern>
+  </servlet-mapping>
+
+
+
+</web-app>
+
+
+
