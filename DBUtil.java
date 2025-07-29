@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class DBUtil {
     private static final String URL = "jdbc:mysql://localhost:3306/SmartTutor";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "Sethra#131"; // ← use your actual password
+    private static final String PASSWORD =// ← use your actual password
 
     public static Connection getConnection() {
         try {
